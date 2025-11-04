@@ -36,12 +36,6 @@ public class MoveCube : MonoBehaviour
 		{
 			transform.Translate(Vector3.down * Time.deltaTime * travelSpeed);
 		}
-		/*
-		else if (Input.GetKey(KeyCode.O))
-		{
-			transform.position = originalPotision;
-		}
-		*/
 		else if (Input.GetKey(KeyCode.O))
 		{
 			transform.position = originalPotision;
